@@ -1,0 +1,5 @@
+(executable
+ (public_name etl)
+ (name main)
+ (modules main io types parsing fileParsing)
+ (libraries etl csv cohttp-lwt-unix lwt))
