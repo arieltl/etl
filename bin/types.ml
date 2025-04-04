@@ -26,15 +26,15 @@ type order = {
 
 type orderTotal = {
   order_id: int;
-  total: float;
+  total_amount: float;
   total_taxes: float;
 
 };;
 
 type processedOrderedItem = {
   order_id: int;
-  total_amount: float;
-  total_taxes: float;
+  item_total: float;
+  total_tax: float;
 };;
 
 type fullOrder = {
