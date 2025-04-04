@@ -71,13 +71,6 @@ let () =
     let filteredOrders = filter_orders ordersWithItems (Sys.argv |> parse_args) in
     let totals = List.map calculateTotal filteredOrders in
 
-    List.iter (fun (total: orderTotal) ->
-      Printf.printf "Order ID: %d\n" total.order_id;
-      Printf.printf "Total: %.2f\n" total.total_amount;
-      Printf.printf "--------------------------------\n";
-      Printf.printf "\n"
-    ) totals;
-
     write_order_total_csv totals "order_total.csv";
     Lwt.return_unit
   )
