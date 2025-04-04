@@ -57,3 +57,7 @@ dune exec  etl -- -status Cancelled -origin P
 ```
 
 If no parameters are provided, the project processes all orders.
+
+
+## Report 
+The project report is available in the [report.md](report.md) file. There is also a [report.pdf](report.pdf) version of the report.

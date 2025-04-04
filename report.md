@@ -13,6 +13,7 @@ The project is managed by Dune, a build system for OCaml projects, and uses the 
 - **Lwt**: For asynchronous operations.
 - **cohttp-lwt-unix**: For HTTP requests.
 
+Observation: The file links in this report only work properly when visualizing the markdown version in github.
 
 # Project Structure
  All of the source code is located in the `bin` directory. The main components are:
