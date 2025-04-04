@@ -11,7 +11,7 @@ The project is managed using [Dune](https://dune.build/) and follows a standard 
   - `fileParsing.ml` & `parsing.ml`: Provide functions to parse CSV rows into OCaml types.
   - `types.ml`: Defines the data types (e.g., `order`, `fullOrder`, `orderTotal`, `processedOrderedItem`).
 
-- **lib/** and **etl/**: May contain libraries or additional code.
+
 
 ## Dependencies
 
